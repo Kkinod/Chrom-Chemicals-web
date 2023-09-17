@@ -11,7 +11,7 @@ import { labels } from 'views/labels';
 
 const SectionOffers = (): JSX.Element => {
     return (
-        <Section_Offers id="section-offers">
+        <Section_Offers id={labels.navigationList.forwardingSectionId}>
             <CenterHeadingSecondary headingText={labels.sectionOffers.heading} />
             <Row>
                 <CardProjects

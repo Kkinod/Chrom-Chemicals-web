@@ -6,8 +6,8 @@ import SectionAboutMain from 'components/molecules/SectionAboutMain/SectionAbout
 
 const SectionAbout = (): JSX.Element => {
     return (
-        <Section_About id="section-about">
-            <CenterHeadingSecondary headingText={labels.sectionAbout.heading}/>
+        <Section_About id={labels.navigationList.aboutUsSectionId}>
+            <CenterHeadingSecondary headingText={labels.sectionAbout.heading} />
             <SectionAboutMain />
         </Section_About>
     );

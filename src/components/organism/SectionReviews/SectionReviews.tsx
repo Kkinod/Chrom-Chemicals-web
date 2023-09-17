@@ -53,7 +53,7 @@ const SectionReviews = (): JSX.Element => {
     };
 
     return (
-        <Section_Reviews id="section-reviews">
+        <Section_Reviews id={labels.navigationList.cooperationSectionId}>
             <ShadowBg />
             <CenterHeadingSecondary headingText={labels.sectionReviews.heading} />
             <ReviewsContainer>

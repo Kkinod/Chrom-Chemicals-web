@@ -10,7 +10,7 @@ import { Section } from 'components/atoms/Section/Section.styles';
 
 const SectionFeatures = (): JSX.Element => {
     return (
-        <Section id="section-features">
+        <Section id={labels.navigationList.productsSectionId}>
             <Row1of2>
                 <SectionFeaturesRow
                     photo={{

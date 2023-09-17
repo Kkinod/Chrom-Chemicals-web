@@ -20,27 +20,36 @@ const Navigation = (): JSX.Element => {
             <NavigationWrapper>
                 <NavList>
                     <ListItem>
-                        <NavigationLink setIsChecked={handleListItemClick} href="#section-about">
+                        <NavigationLink setIsChecked={handleListItemClick} href={labels.navigationList.aboutUsSection}>
                             {labels.navigationList.aboutUs}
                         </NavigationLink>
                     </ListItem>
                     <ListItem>
-                        <NavigationLink setIsChecked={handleListItemClick} href="#section-features">
+                        <NavigationLink setIsChecked={handleListItemClick} href={labels.navigationList.productsSection}>
+                            {labels.navigationList.products}
+                        </NavigationLink>
+                    </ListItem>
+                    <ListItem>
+                        <NavigationLink
+                            setIsChecked={handleListItemClick}
+                            href={labels.navigationList.forwardingSection}
+                        >
+                            {labels.navigationList.forwarding}
+                        </NavigationLink>
+                    </ListItem>
+                    <ListItem>
+                        <NavigationLink
+                            setIsChecked={handleListItemClick}
+                            href={labels.navigationList.cooperationSection}
+                        >
                             {labels.navigationList.cooperation}
                         </NavigationLink>
                     </ListItem>
                     <ListItem>
-                        <NavigationLink setIsChecked={handleListItemClick} href="#section-offers">
-                            {labels.navigationList.selectedProjects}
-                        </NavigationLink>
-                    </ListItem>
-                    <ListItem>
-                        <NavigationLink setIsChecked={handleListItemClick} href="#section-reviews">
-                            {labels.navigationList.customersOpinion}
-                        </NavigationLink>
-                    </ListItem>
-                    <ListItem>
-                        <NavigationLink setIsChecked={handleListItemClick} href="#section-contact">
+                        <NavigationLink
+                            setIsChecked={handleListItemClick}
+                            href={labels.navigationList.writeToUsSection}
+                        >
                             {labels.navigationList.writeToUs}
                         </NavigationLink>
                     </ListItem>
