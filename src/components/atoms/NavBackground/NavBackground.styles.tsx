@@ -6,8 +6,8 @@ export const NavBgc = styled.div`
     top: 5%;
     right: 6rem;
     z-index: 1000;
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
     background-image: radial-gradient(
         ${({ theme }: ITheme): string => theme.colors.primaryLight},

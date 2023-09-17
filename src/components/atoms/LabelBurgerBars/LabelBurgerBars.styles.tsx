@@ -7,8 +7,8 @@ export const Label = styled.label`
     z-index: 1100;
     top: 5%;
     right: 6rem;
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
     background-color: ${({ theme }: ITheme): string => theme.colors.primaryLight};
     text-align: center;

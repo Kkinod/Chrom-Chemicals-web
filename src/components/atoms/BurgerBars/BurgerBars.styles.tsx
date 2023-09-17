@@ -3,13 +3,13 @@ import styled from 'styled-components/macro';
 
 export const BurgerBars = styled.div`
     position: relative;
-    margin-top: 2rem;
+    margin-top: 25%;
 
     &,
     &::before,
     &::after {
         display: inline-block;
-        width: 3rem;
+        width: 2.5rem;
         height: 2px;
         background-color: ${({ theme }: ITheme): string => theme.colors.greyDark3};
     }
