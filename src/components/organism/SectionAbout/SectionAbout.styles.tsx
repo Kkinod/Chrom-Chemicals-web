@@ -4,7 +4,8 @@ import { Section } from 'components/atoms/Section/Section.styles';
 import { responsiveSize } from 'assets/styles/mixins.styles';
 
 export const Section_About = styled(Section)`
-    padding: 5% 0 10%;
+    min-height: 65rem;
+    padding: 5% 0;
     background-color: ${({ theme }: ITheme): string => theme.colors.greyLight1};
 
     @media ${responsiveSize.tabPort} {

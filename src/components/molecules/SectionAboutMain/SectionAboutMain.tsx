@@ -8,7 +8,6 @@ import { FirstPhoto, SecondPhoto, ThirdPhoto } from 'components/atoms/Compositio
 import { HeadingTertiarySectionAbout } from 'components/atoms/HeadingTertiarySectionAbout/HeadingTertiarySectionAbout.styles';
 import { labels } from 'views/labels';
 import { Paragraph } from 'components/atoms/Paragraph/Paragraph.styles';
-import { BtnText } from 'components/atoms/Buttons/BtnText.styles';
 
 const SectionAboutMain = (): JSX.Element => {
     const [hoveredPhoto, setHoveredPhoto] = useState<string | null>(null);
@@ -20,7 +19,6 @@ const SectionAboutMain = (): JSX.Element => {
                 <Paragraph>{labels.sectionAbout.paragraph}</Paragraph>
                 <HeadingTertiarySectionAbout>{labels.sectionAbout.headingTertiarySecond}</HeadingTertiarySectionAbout>
                 <Paragraph>{labels.sectionAbout.paragraph}</Paragraph>
-                <BtnText href="#section-about">{labels.sectionAbout.btnText}</BtnText>
             </Col1of2>
             <Col1of2>
                 <WrapperComposition>
@@ -45,7 +43,6 @@ const SectionAboutMain = (): JSX.Element => {
                     />
                 </WrapperComposition>
             </Col1of2>
-            
         </Row>
     );
 };

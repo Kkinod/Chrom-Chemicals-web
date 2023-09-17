@@ -1,14 +1,33 @@
+//
+// O Nas - przycisk do wywalenia
+// Współpraca -> Produkty: Chemia/Produkty spożywcze/Gaz
+// Wybrane Projekty -> Spedycja: Cysterny/Plandeki/Kolej
+// Opinie klientów -> Współpraca: informacja o współpracy
+
 export const labels = {
     navigationList: {
         aboutUs: 'O Nas',
+        aboutUsSectionId: 'section-about',
+        aboutUsSection: '#section-about',
+
+        products: 'Produkty',
+        productsSectionId: 'section-products',
+        productsSection: '#section-products',
+
+        forwarding: 'Spedycja',
+        forwardingSectionId: 'section-forwarding',
+        forwardingSection: '#section-forwarding',
+
         cooperation: 'Współpraca',
-        selectedProjects: 'Wybrane Projekty',
-        customersOpinion: 'Opinie klientów',
-        writeToUs: 'Napisz do Nas',
+        cooperationSectionId: 'section-cooperation',
+        cooperationSection: '#section-cooperation',
+
+        writeToUs: 'Kontakt',
+        writeToUsSection: '#section-contact',
     },
 
     sectionAbout: {
-        heading: 'Pomożemy na każdym etapie',
+        heading: 'O Nas',
         headingTertiaryFirst: 'Pomagamy w doborze',
         headingTertiarySecond: 'Specjalizujemy się w drewnie',
         paragraph:
@@ -35,7 +54,7 @@ export const labels = {
     },
 
     sectionOffers: {
-        heading: 'Wybrane Projekty',
+        heading: 'Spedycja',
         firtstCard: {
             firstDescription: 'Szybka realizacja',
             secondDescription: 'Krótkie terminy',
@@ -48,7 +67,7 @@ export const labels = {
     },
 
     sectionReviews: {
-        heading: 'Opinie naszych klientów',
+        heading: 'Współpraca',
         customerName: 'Jon Doe',
         headingOfReview: 'Zakochałam się w schodach które zrobili w moim domu',
         reviewText:
