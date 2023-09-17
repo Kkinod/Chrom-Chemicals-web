@@ -9,30 +9,40 @@ import { NavigationContainer, NavigationWrapper } from './Navigation.styles';
 
 const Navigation = (): JSX.Element => {
     const [isChecked, setIsChecked] = useState(false);
-    const handleListItemClick = () => {
+    const handleListItemClick = (): void => {
         setIsChecked(!isChecked);
-      };
+    };
 
     return (
         <NavigationContainer>
-            <BurgerBarsContainer checked={isChecked} setIsChecked={handleListItemClick}/>
+            <BurgerBarsContainer checked={isChecked} setIsChecked={handleListItemClick} />
             <NavBackground />
             <NavigationWrapper>
                 <NavList>
                     <ListItem>
-                        <NavigationLink setIsChecked={handleListItemClick} href="#section-about">{labels.navigationList.aboutUs}</NavigationLink>
+                        <NavigationLink setIsChecked={handleListItemClick} href="#section-about">
+                            {labels.navigationList.aboutUs}
+                        </NavigationLink>
                     </ListItem>
                     <ListItem>
-                        <NavigationLink setIsChecked={handleListItemClick} href="#section-features">{labels.navigationList.cooperation}</NavigationLink>
+                        <NavigationLink setIsChecked={handleListItemClick} href="#section-features">
+                            {labels.navigationList.cooperation}
+                        </NavigationLink>
                     </ListItem>
                     <ListItem>
-                        <NavigationLink setIsChecked={handleListItemClick} href="#section-offers">{labels.navigationList.selectedProjects}</NavigationLink>
+                        <NavigationLink setIsChecked={handleListItemClick} href="#section-offers">
+                            {labels.navigationList.selectedProjects}
+                        </NavigationLink>
                     </ListItem>
                     <ListItem>
-                        <NavigationLink setIsChecked={handleListItemClick} href="#section-reviews">{labels.navigationList.customersOpinion}</NavigationLink>
+                        <NavigationLink setIsChecked={handleListItemClick} href="#section-reviews">
+                            {labels.navigationList.customersOpinion}
+                        </NavigationLink>
                     </ListItem>
                     <ListItem>
-                        <NavigationLink setIsChecked={handleListItemClick} href="#section-contact">{labels.navigationList.writeToUs}</NavigationLink>
+                        <NavigationLink setIsChecked={handleListItemClick} href="#section-contact">
+                            {labels.navigationList.writeToUs}
+                        </NavigationLink>
                     </ListItem>
                 </NavList>
             </NavigationWrapper>
