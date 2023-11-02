@@ -29,6 +29,6 @@ export const HeadingPrimarySecond = styled.span`
     font-family: Garamond;
     font-size: 6rem;
     font-weight: 200;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     animation: ${animationMoveInRight} 1s;
 `;
