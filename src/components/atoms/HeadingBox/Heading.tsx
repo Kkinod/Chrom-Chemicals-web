@@ -1,15 +1,13 @@
 import React from 'react';
 import { HeadingBox, HeadingPrimary, HeadingPrimaryMain, HeadingPrimarySecond } from './Heading.styles';
+import { labels } from 'views/labels';
 
 export const Heading = (): JSX.Element => {
-    const headingPrimaryMainText = 'Mr. woodenfloor';
-    const headingPrimarySecondText = 'Drewniane Podłogi to nasza pasja';
-
     return (
         <HeadingBox>
             <HeadingPrimary>
-                <HeadingPrimaryMain>{headingPrimaryMainText}</HeadingPrimaryMain>
-                <HeadingPrimarySecond>{headingPrimarySecondText}</HeadingPrimarySecond>
+                <HeadingPrimaryMain>{labels.header.headingPrimaryMainText}</HeadingPrimaryMain>
+                <HeadingPrimarySecond>{labels.header.headingPrimarySecondText}</HeadingPrimarySecond>
             </HeadingPrimary>
         </HeadingBox>
     );

@@ -1,10 +1,42 @@
 //
-// O Nas - przycisk do wywalenia
-// Współpraca -> Produkty: Chemia/Produkty spożywcze/Gaz
-// Wybrane Projekty -> Spedycja: Cysterny/Plandeki/Kolej
-// Opinie klientów -> Współpraca: informacja o współpracy
+
+// O Nas:
+// Wymiana 3 zdjęć
+
+// =====================
+// spedycja -> OFERTA
+
+// 1. GAZ - AEROZOL
+// -izobutan (bezwonny)
+// -propan(bezwonny)
+// -n-butan(bezwonny)
+// -mieszanki aerozolowe 2 i 3 składnikowe (bezwonne)
+// - gaz LPG
+
+// 2. CHEMIA  :
+// metanol
+// dodatki do farb
+// rozpuszczalniki
+// benzyny specjalne
+// DME
+// toluen
+
+// 3. TRANSPORT I SPEDYCJA :
+// Szukasz transportu specjalistycznego gazów bezwonnych lub wszelkiego rodzaju produktów chemicznych - również niebezpiecznych wszystkich klas ADR ?Jeśli poszukujesz zleceń transportowych dla swojej floty - również trafiłeś w odpowiednie miejsce - zadzwoń lub napisz.
+// =====================
+
+
+// Te dwa działy powyżej będą miały w tle jedno zdjęcie
+
+
+// Foooter - zmienić logo i nowe zdjęcię + dodać dane
 
 export const labels = {
+    header: {
+        headingPrimaryMainText: 'Chrom Chemicals',
+        headingPrimarySecondText: 'See posibility everywhere',
+    },
+
     navigationList: {
         aboutUs: 'O Nas',
         aboutUsSectionId: 'section-about',
@@ -14,7 +46,7 @@ export const labels = {
         productsSectionId: 'section-products',
         productsSection: '#section-products',
 
-        forwarding: 'Spedycja',
+        forwarding: 'Oferta',
         forwardingSectionId: 'section-forwarding',
         forwardingSection: '#section-forwarding',
 
@@ -31,7 +63,10 @@ export const labels = {
         headingTertiaryFirst: 'Pomagamy w doborze',
         headingTertiarySecond: 'Specjalizujemy się w drewnie',
         paragraph:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, hic voluptatibus veritatis veroimpedit dolorem minima corrupti omnis itaque quaerat aspernatur aliquam fuga repellendus pariatur exercitationem sapiente illum excepturi cumque?',
+            'Rok 2004 to początek historii której finałem jest istnienie firmy Chrom Chemicals. Rozpoczęcie pracy właściciela w branży paliwowej zaowocowało założeniem w 2012 roku firmy która w początkowej fazie miała nieco inny profil działalności niż ten dzisiejszy. Międzynarodowe kontakty w branży z największymi firmami na świecie pozwoliły na zbudowanie solidnego przedsiębiorstwa, którego filarem jest lojalność, partnerstwo i szeroko pojęta etyka biznesowa.',
+        paragraph2:
+            'Każda firma która rozpoczęła z nami współpracę, nawet od najmniejszych zagadnień czy zamówień, z roku na rok tą współpracę pogłębia o kolejne gałęzie swoich działalności a my jesteśmy szczęśliwi że możemy wspólnie z naszymi partnerami realizować zlecenia naszych klientów.',
+        paragraph3: 'Zapraszamy do działu OFERTA i rozpoczęcia współpracy z naszą firmą !!!',
         btnText: 'Sprawdź więcej',
     },
 
@@ -54,7 +89,7 @@ export const labels = {
     },
 
     sectionOffers: {
-        heading: 'Spedycja',
+        heading: 'Oferta',
         firtstCard: {
             firstDescription: 'Szybka realizacja',
             secondDescription: 'Krótkie terminy',

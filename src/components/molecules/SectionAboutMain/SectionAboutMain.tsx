@@ -5,7 +5,6 @@ import thirdPhoto from 'assets/img/3.jpg';
 import { Col1of2, Row } from 'components/atoms/Grid/Grid.styles';
 import { WrapperComposition } from './SectionAboutMain.styles';
 import { FirstPhoto, SecondPhoto, ThirdPhoto } from 'components/atoms/CompositionPhotos/CompositionPhotos.styles';
-import { HeadingTertiarySectionAbout } from 'components/atoms/HeadingTertiarySectionAbout/HeadingTertiarySectionAbout.styles';
 import { labels } from 'views/labels';
 import { Paragraph } from 'components/atoms/Paragraph/Paragraph.styles';
 
@@ -15,10 +14,9 @@ const SectionAboutMain = (): JSX.Element => {
     return (
         <Row>
             <Col1of2>
-                <HeadingTertiarySectionAbout>{labels.sectionAbout.headingTertiaryFirst}</HeadingTertiarySectionAbout>
                 <Paragraph>{labels.sectionAbout.paragraph}</Paragraph>
-                <HeadingTertiarySectionAbout>{labels.sectionAbout.headingTertiarySecond}</HeadingTertiarySectionAbout>
-                <Paragraph>{labels.sectionAbout.paragraph}</Paragraph>
+                <Paragraph>{labels.sectionAbout.paragraph2}</Paragraph>
+                <Paragraph>{labels.sectionAbout.paragraph3}</Paragraph>
             </Col1of2>
             <Col1of2>
                 <WrapperComposition>

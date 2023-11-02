@@ -5,7 +5,8 @@ import { ITheme } from 'assets/styles/theme';
 
 export const Section_Offers = styled(Section)`
     padding: 5% 0;
-    background-color: ${({ theme }: ITheme): string => theme.colors.greyLight1};
+    /* background-color: ${({ theme }: ITheme): string => theme.colors.greyLight1}; */
+    background-color: ${({ theme }: ITheme): string => theme.colors.black};
 
     @media ${responsiveSize.tabPort} {
         padding: 6rem 0;

@@ -10,10 +10,10 @@ const MainSection = (): JSX.Element => {
     return (
         <Main>
             <SectionAbout />
-            <SectionFeatures />
+            {/* <SectionFeatures /> */}
             <SectionOffers />
-            <SectionReviews />
-            <SectionContact />
+            {/* <SectionReviews /> */}
+            {/* <SectionContact /> */}
         </Main>
     );
 };
