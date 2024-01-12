@@ -3,6 +3,7 @@ import { ITheme } from 'assets/styles/theme';
 
 export const BtnText = styled.a`
     position: relative;
+    margin: 0 auto;
     padding: 1rem 2.25rem;
     border-radius: 100px;
     border-top: 1px solid rgba(${({ theme }: ITheme): string => theme.colors.primaryLightRgb}, 0.25);
@@ -23,7 +24,11 @@ export const BtnText = styled.a`
         left: 0;
         width: 50%;
         height: 100%;
-        background: linear-gradient(to left, rgba(${({ theme }: ITheme): string => theme.colors.primaryLightRgb}, 0.25), transparent);
+        background: linear-gradient(
+            to left,
+            rgba(${({ theme }: ITheme): string => theme.colors.primaryLightRgb}, 0.25),
+            transparent
+        );
         transform: skewX(45deg) translateX(0);
         transition: 0.5s;
     }

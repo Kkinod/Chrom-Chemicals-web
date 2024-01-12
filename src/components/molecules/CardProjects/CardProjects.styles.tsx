@@ -56,6 +56,7 @@ export const FrontSide = styled(Card)`
     background-color: ${({ theme }: ITheme): string => theme.colors.white};
 
     @media ${responsiveSize.tabPort} {
+        border-radius: 1rem 1rem 0 0;
         background-color: ${({ theme }: ITheme): string => theme.colors.primaryDark};
     }
 `;
@@ -86,6 +87,8 @@ export const BackSide = styled(Card)`
     );
 
     @media ${responsiveSize.tabPort} {
+border-radius: 0 0 1rem 1rem;
+
         transform: rotateY(0);
         clip-path: polygon(0 -10%, 100% 0, 100% 100%, 0% 100%);
         background-image: linear-gradient(
@@ -97,12 +100,17 @@ export const BackSide = styled(Card)`
 `;
 
 export const BackSideDetails = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
     position: absolute;
     top: 50%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
     width: 90%;
+    height: 90%;
 
     @media ${responsiveSize.tabPort} {
         position: relative;
@@ -156,13 +164,13 @@ export const Li = styled.li`
         }
     }
 
-    &:last-child {
+    /* &:last-child {
         margin-bottom: 10rem;
 
         @media ${responsiveSize.tabPort} {
             margin-bottom: 5rem;
         }
-    }
+    } */
 
     &:first-child {
         @media ${responsiveSize.tabPort} {
