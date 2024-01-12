@@ -1,6 +1,6 @@
+import React from 'react';
 import { BtnText } from 'components/atoms/Buttons/BtnText.styles';
 import { Col1of3 } from 'components/atoms/Grid/Grid.styles';
-import React from 'react';
 import {
     BackSide,
     BackSideDetails,
@@ -21,6 +21,7 @@ interface ICardProjectsProps {
     fourthDescription: string;
     fifthDecription: string;
     buttonText: string;
+    cardHeading: string;
 }
 
 const CardProjects = ({
@@ -31,6 +32,7 @@ const CardProjects = ({
     fourthDescription,
     fifthDecription,
     buttonText,
+    cardHeading,
 }: ICardProjectsProps): JSX.Element => {
     return (
         <Col1of3>
@@ -38,7 +40,7 @@ const CardProjects = ({
                 <FrontSide>
                     <SideFrontPictureFirst imageUrl={imageUrl}></SideFrontPictureFirst>
                     <CardHeading>
-                        <CardHeadingSpanFirst>{'Sprawdź ofertę'}</CardHeadingSpanFirst>
+                        <CardHeadingSpanFirst>{cardHeading}</CardHeadingSpanFirst>
                     </CardHeading>
                 </FrontSide>
                 <BackSide>

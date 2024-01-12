@@ -6,6 +6,6 @@ export const CenterText = styled.div`
     margin-bottom: 5%;
 
   @media ${responsiveSize.tabPort} {
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
     }
 `;
