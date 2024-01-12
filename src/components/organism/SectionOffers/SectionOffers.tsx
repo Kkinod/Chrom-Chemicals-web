@@ -4,9 +4,9 @@ import { BtnWrapper, Section_Offers, ShadowBgOffer } from './SectionOffers.style
 import { Row } from 'components/atoms/Grid/Grid.styles';
 import CardProjects from 'components/molecules/CardProjects/CardProjects';
 import CenterHeadingSecondary from 'components/molecules/CenterHeadingSecondary/CenterHeadingSecondary';
-import Chemia from 'assets/img/Dzial-CHEMIA.png';
-import Gaz from 'assets/img/Dzial-GAZ.png';
-import Transport from 'assets/img/Dzial-TRANSPORT2.png';
+import Chemia from 'assets/img/Dzial-CHEMIA.jpg';
+import Gaz from 'assets/img/Dzial-GAZ.jpg';
+import Transport from 'assets/img/Dzial-TRANSPORT2.jpg';
 import { labels } from 'views/labels';
 
 const SectionOffers = (): JSX.Element => {

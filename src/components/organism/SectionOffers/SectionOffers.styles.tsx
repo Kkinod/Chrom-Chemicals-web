@@ -2,7 +2,7 @@ import styled from 'styled-components/macro';
 import { responsiveSize } from 'assets/styles/mixins.styles';
 import { Section } from 'components/atoms/Section/Section.styles';
 import { ITheme } from 'assets/styles/theme';
-import Background from 'assets/img/Background.png';
+import Background from 'assets/img/Background.jpg';
 
 export const Section_Offers = styled(Section)`
     position: relative;
