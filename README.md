@@ -2,6 +2,7 @@
 !! Improve img size
 
 - add new video in main section
+- improve description in offers section
 
 ====
 # Getting Started with Create React App
