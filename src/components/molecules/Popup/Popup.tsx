@@ -1,6 +1,5 @@
 import React from 'react';
-import Bedroom from 'assets/img/room3-small.jpg';
-import LivingRoom from 'assets/img/room4-small.jpg';
+import logo from 'assets/logo/chemicals-noBg.png';
 import { BtnText } from 'components/atoms/Buttons/BtnText.styles';
 import { CloseIcon } from 'components/atoms/CloseIcon/CloseIcon.styles';
 import { LeftBox, MainText, PopupContainer, PopupContent, PopupImg, RightBox, Subtitle, Title } from './Popup.styles';
@@ -11,8 +10,7 @@ const Popup = (): JSX.Element => {
         <PopupContainer id="popup">
             <PopupContent>
                 <LeftBox>
-                    <PopupImg src={Bedroom} alt="Bedroom" />
-                    <PopupImg src={LivingRoom} alt="Empty living room" />
+                    <PopupImg src={logo} alt="logo" />
                 </LeftBox>
                 <RightBox>
                     <CloseIcon href="#section-projects">&times;</CloseIcon>
@@ -20,7 +18,7 @@ const Popup = (): JSX.Element => {
                     <Subtitle>{labels.popup.subtitle}</Subtitle>
                     <MainText>{labels.popup.mainText}</MainText>
                     <div>
-                        <BtnText href="#">{labels.popup.btnText}</BtnText>
+                        <BtnText href="#footer">{labels.popup.btnText}</BtnText>
                     </div>
                 </RightBox>
             </PopupContent>

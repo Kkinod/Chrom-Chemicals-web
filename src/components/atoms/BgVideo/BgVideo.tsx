@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import videoBig from 'assets/video/production(1440p).mp4';
 import videoSmall from 'assets/video/production(360p).mp4';
+import waldiFull from 'assets/video/WaldiFull.mp4';
 import { BgVideo, BgVideoContent } from './BgVideo.styles';
 
 export const BgVideoWrapper = (): JSX.Element => {
@@ -11,9 +12,11 @@ export const BgVideoWrapper = (): JSX.Element => {
     useEffect(() => {
         if (videoRef.current) {
             if (window.innerWidth <= 767) {
-                videoRef.current.src = videoSmall;
+                // videoRef.current.src = videoSmall;
+                videoRef.current.src = waldiFull;
             } else {
-                videoRef.current.src = videoBig;
+                // videoRef.current.src = videoBig;
+                videoRef.current.src = waldiFull;
             }
             videoRef.current.load();
         }

@@ -20,29 +20,26 @@ const Navigation = (): JSX.Element => {
             <NavigationWrapper>
                 <NavList>
                     <ListItem>
+                        <NavigationLink setIsChecked={handleListItemClick} href={labels.navigationList.homeSection}>
+                            {labels.navigationList.home}
+                        </NavigationLink>
+                    </ListItem>
+                    <ListItem>
                         <NavigationLink setIsChecked={handleListItemClick} href={labels.navigationList.aboutUsSection}>
                             {labels.navigationList.aboutUs}
                         </NavigationLink>
                     </ListItem>
-                    <ListItem>
+                    {/* <ListItem>
                         <NavigationLink setIsChecked={handleListItemClick} href={labels.navigationList.productsSection}>
                             {labels.navigationList.products}
                         </NavigationLink>
-                    </ListItem>
+                    </ListItem> */}
                     <ListItem>
                         <NavigationLink
                             setIsChecked={handleListItemClick}
                             href={labels.navigationList.forwardingSection}
                         >
                             {labels.navigationList.forwarding}
-                        </NavigationLink>
-                    </ListItem>
-                    <ListItem>
-                        <NavigationLink
-                            setIsChecked={handleListItemClick}
-                            href={labels.navigationList.cooperationSection}
-                        >
-                            {labels.navigationList.cooperation}
                         </NavigationLink>
                     </ListItem>
                     <ListItem>

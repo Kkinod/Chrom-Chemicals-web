@@ -25,19 +25,21 @@
 // Szukasz transportu specjalistycznego gazów bezwonnych lub wszelkiego rodzaju produktów chemicznych - również niebezpiecznych wszystkich klas ADR ?Jeśli poszukujesz zleceń transportowych dla swojej floty - również trafiłeś w odpowiednie miejsce - zadzwoń lub napisz.
 // =====================
 
-
 // Te dwa działy powyżej będą miały w tle jedno zdjęcie
-
 
 // Foooter - zmienić logo i nowe zdjęcię + dodać dane
 
 export const labels = {
     header: {
         headingPrimaryMainText: 'Chrom Chemicals',
-        headingPrimarySecondText: 'See posibility everywhere',
+        headingPrimarySecondText: '"See posibility everywhere"',
     },
 
     navigationList: {
+        home: 'home',
+        homeSectionId: 'home',
+        homeSection: '#home',
+
         aboutUs: 'O Nas',
         aboutUsSectionId: 'section-about',
         aboutUsSection: '#section-about',
@@ -55,7 +57,7 @@ export const labels = {
         cooperationSection: '#section-cooperation',
 
         writeToUs: 'Kontakt',
-        writeToUsSection: '#section-contact',
+        writeToUsSection: '#footer',
     },
 
     sectionAbout: {
@@ -89,7 +91,7 @@ export const labels = {
     },
 
     sectionOffers: {
-        heading: 'Oferta', 
+        heading: 'Oferta',
         firtstCard: {
             heading: 'Gaz - Aerozol',
             firstDescription: 'izobutan (bezwonny)',
@@ -114,7 +116,7 @@ export const labels = {
             fourthDescription: 'produktów niebezpiecznych klas ADR',
             fifthDecription: 'zlecenia transportowe dla swojej floty',
         },
-        buttonCardText: 'Zamów teraz!',
+        buttonCardText: 'Szczegóły',
         buttonMainText: 'Odkryj całą ofertę',
     },
 
@@ -155,10 +157,24 @@ export const labels = {
     },
 
     popup: {
-        title: 'Rozpocznij budowę z Nami',
+        title: 'Gazy bezwonne stosowane w produkcji',
         subtitle: 'Zapraszamy do zapoznania się z Naszą ofertą',
         mainText:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique omnis suscipit maxime repellat possimus obcaecati magnam ex cumque, excepturi iste? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, qui. Quibusdam quam, labore tempore eos nulla saepe soluta nemo iure!',
-        btnText: 'Zarezerwuj termin',
+            'Jeżeli poszukujesz gazów bezwonnych stosowanych w produkcji to jesteś we właściwym miejscu.  Kontakty międzynarodowe i wieloletnia współpraca z największymi dostawcami na świecie pozwala nam oferować mieszanki aerozolowe jak również jednoskładnikowe produkty w  najwyższej jakości również  do produkcji kosmetycznej jak iw zastosowaniach medycznych. Dostępne są również gazy stosowane w chłodnictwie. Nie musisz się również martwić o transport wybranego przez siebie produktu. 20-letnie doświadczenie pozwala nam na wyselekcjonowanie do transportu najbardziej odpowiedniego dedykowanego sprzętu i przewoźnika tak aby jakość  nie została obniżona przez brak wiedzy lub pomyłkę.',
+        btnText: 'Skontaktuj się z nami i poznaj naszą ofertę',
+    },
+    popup2: {
+        title: 'Produkty chemiczne',
+        subtitle: 'Zapraszamy do zapoznania się z Naszą ofertą',
+        mainText:
+            'Lista  produktów chemicznych w naszej firmie jest bardzo długa. Jeżeli jesteś zainteresowany jakimś produktem który nie został tu wymieniony  to skontaktuj się z nami a my sprawdzimy czy możemy Ci pomóc. Współpracujemy z wieloma europejskimi producentami oraz dystrybutorami. Tak jak w przypadku gazów zajmiemy się również transportem zamówionego produktu specjalnie dedykowanym transportem.',
+        btnText: 'Skontaktuj się z nami i poznaj naszą ofertę',
+    },
+    popup3: {
+        title: 'Szukasz transportu lub zleceń transportowych?',
+        subtitle: '',
+        mainText:
+            'Jeżeli szukasz transportu produktów chemicznych, gazowych lub jakichkolwiek innych, jeżeli jesteś przewoźnikiem i szukasz zleceń transportowych to skontaktuj się z naszym menagerem ds transportu. Współpracujemy wieloma producentami oraz ze specjalnie wyselekcjonowanymi przewoźnikami. Posiadamy również własny sprzęt  do transportu produktów chemicznych.',
+        btnText: 'Skontaktuj się z nami i poznaj naszą ofertę',
     },
 };

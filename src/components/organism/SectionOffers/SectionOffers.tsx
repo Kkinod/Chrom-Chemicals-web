@@ -24,6 +24,7 @@ const SectionOffers = (): JSX.Element => {
                     fifthDecription={labels.sectionOffers.firtstCard.fifthDecription}
                     buttonText={labels.sectionOffers.buttonCardText}
                     cardHeading={labels.sectionOffers.firtstCard.heading}
+                    href='#popup'
                 />
                 <CardProjects
                     imageUrl={Chemia}
@@ -34,6 +35,7 @@ const SectionOffers = (): JSX.Element => {
                     fifthDecription={labels.sectionOffers.secondCard.fifthDecription}
                     buttonText={labels.sectionOffers.buttonCardText}
                     cardHeading={labels.sectionOffers.secondCard.heading}
+                    href='#popup2'
                 />
                 <CardProjects
                     imageUrl={Transport}
@@ -44,6 +46,7 @@ const SectionOffers = (): JSX.Element => {
                     fifthDecription={labels.sectionOffers.thirdCard.fifthDecription}
                     buttonText={labels.sectionOffers.buttonCardText}
                     cardHeading={labels.sectionOffers.thirdCard.heading}
+                    href='#popup3'
                 />
             </Row>
             {/* <BtnWrapper>
