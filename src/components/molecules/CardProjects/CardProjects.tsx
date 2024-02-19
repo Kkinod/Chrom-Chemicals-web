@@ -22,6 +22,7 @@ interface ICardProjectsProps {
     fifthDecription: string;
     buttonText: string;
     cardHeading: string;
+    href: string;
 }
 
 const CardProjects = ({
@@ -33,6 +34,7 @@ const CardProjects = ({
     fifthDecription,
     buttonText,
     cardHeading,
+    href,
 }: ICardProjectsProps): JSX.Element => {
     return (
         <Col1of3>
@@ -52,7 +54,7 @@ const CardProjects = ({
                             <Li>{fourthDescription}</Li>
                             <Li>{fifthDecription}</Li>
                         </Ul>
-                        <BtnText href="#popup">{buttonText}</BtnText>
+                        <BtnText href={href}>{buttonText}</BtnText>
                     </BackSideDetails>
                 </BackSide>
             </CardWrapper>

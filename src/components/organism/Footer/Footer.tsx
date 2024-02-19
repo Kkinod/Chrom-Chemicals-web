@@ -16,35 +16,44 @@ import { labels } from 'views/labels';
 
 const Footer = (): JSX.Element => {
     return (
-        <FooterSection>
+        <FooterSection id="footer">
             <Shadow />
             <FooterLogoBox>
-                <FooterLogo src={logoBronze} alt='logo_bronze' />
+                <FooterLogo src={logoBronze} alt="logo_bronze" />
             </FooterLogoBox>
             <Row>
                 <Col1of2>
                     <FooterNavigation>
                         <FooterList>
                             <FooterListItem>
-                                <FooterListItemLink href={labels.footer.itemLinkHrefFirst}>{labels.footer.itemLinkTextFirst}</FooterListItemLink>
+                                <FooterListItemLink href={labels.footer.itemLinkHrefFirst}>
+                                    {labels.footer.itemLinkTextFirst}
+                                </FooterListItemLink>
                             </FooterListItem>
                             <FooterListItem>
-                                <FooterListItemLink href={labels.footer.itemLinkHrefSecond}>{labels.footer.itemLinkTextSecond}</FooterListItemLink>
+                                <FooterListItemLink href={labels.footer.itemLinkHrefSecond}>
+                                    {labels.footer.itemLinkTextSecond}
+                                </FooterListItemLink>
                             </FooterListItem>
                             <FooterListItem>
-                                <FooterListItemLink href={labels.footer.itemLinkHrefThird}>{labels.footer.itemLinkTextThird}</FooterListItemLink>
+                                <FooterListItemLink href={labels.footer.itemLinkHrefThird}>
+                                    {labels.footer.itemLinkTextThird}
+                                </FooterListItemLink>
                             </FooterListItem>
                             <FooterListItem>
-                                <FooterListItemLink href={labels.footer.itemLinkHrefFourth}>{labels.footer.itemLinkTextFourth}</FooterListItemLink>
+                                <FooterListItemLink href={labels.footer.itemLinkHrefFourth}>
+                                    {labels.footer.itemLinkTextFourth}
+                                </FooterListItemLink>
                             </FooterListItem>
                         </FooterList>
                     </FooterNavigation>
                 </Col1of2>
                 <Col1of2>
-                <FooterCopyright>
-                    {labels.footer.buildBy}<FooterListItemLink href={labels.footer.hrefForLink}>{labels.footer.kkinod}</FooterListItemLink>
-                    {/* {labels.footer.copyrightText} */}
-                </FooterCopyright>
+                    <FooterCopyright>
+                        {labels.footer.buildBy}
+                        <FooterListItemLink href={labels.footer.hrefForLink}>{labels.footer.kkinod}</FooterListItemLink>
+                        {/* {labels.footer.copyrightText} */}
+                    </FooterCopyright>
                 </Col1of2>
             </Row>
         </FooterSection>
