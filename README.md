@@ -1,7 +1,6 @@
 !! Change to Vite or Next and add tests
 !! Improve img size
 
-- add new video in main section
 - improve description in offers section
 
 ====
