@@ -1,6 +1,6 @@
 !! Change to Vite or Next and add tests
-!! Improve img size
 
+- !! Improve img size
 - improve footer section
 
 ====
