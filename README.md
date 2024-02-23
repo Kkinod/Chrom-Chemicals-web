@@ -1,7 +1,7 @@
 !! Change to Vite or Next and add tests
 !! Improve img size
 
-
+- improve footer section
 
 ====
 # Getting Started with Create React App
