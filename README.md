@@ -1,4 +1,4 @@
-!! Change to Vite or Next and add tests
+TODO:
 
 - !! Improve img size
 - improve footer section
