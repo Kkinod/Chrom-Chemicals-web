@@ -1,7 +1,7 @@
 !! Change to Vite or Next and add tests
 !! Improve img size
 
-- improve description in offers section
+
 
 ====
 # Getting Started with Create React App
