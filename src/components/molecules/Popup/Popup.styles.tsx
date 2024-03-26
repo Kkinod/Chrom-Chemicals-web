@@ -10,6 +10,8 @@ export const PopupContent = styled.div`
     transform: translate(-50%, -50%);
     display: flex;
     width: 75%;
+    max-width: 1200px;
+    max-height: 1100px;
     border-radius: 1rem;
     background-color: ${({ theme }: ITheme): string => theme.colors.white};
     box-shadow: 0 2rem 4rem rgba(${({ theme }: ITheme): string => theme.colors.blackRgb}, 0.2);

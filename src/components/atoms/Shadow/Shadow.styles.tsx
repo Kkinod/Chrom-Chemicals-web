@@ -12,4 +12,11 @@ export const Shadow = styled.div`
         rgba(${({ theme }: ITheme): string => theme.colors.blackRgb}, 0.9),
         rgba(${({ theme }: ITheme): string => theme.colors.blackRgb}, 0.5)
     );
+
+ 
+    /* mask-image: linear-gradient(to top left, transparent 50%, black 50%), 
+                linear-gradient(to top right, transparent 50%, black 50%);
+    mask-size: 100% 100%;
+    mask-position: center;
+    mask-repeat: no-repeat; */
 `;
