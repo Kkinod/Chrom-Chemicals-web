@@ -29,6 +29,7 @@ export const theme = {
 
     fontSize: {
         defaultFontSize: '1.6rem',
+        mediumFontSize: '2.4rem',
     },
 
     grid: {

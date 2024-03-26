@@ -1,7 +1,18 @@
 import styled from 'styled-components/macro';
-import footerBgImg from 'assets/img/bed-middle.jpg';
+import footerBgImg from 'assets/img/biuro11test.png';
 import { ITheme } from 'assets/styles/theme';
 import { responsiveSize } from 'assets/styles/mixins.styles';
+import { Row } from 'components/atoms/Grid/Grid.styles';
+
+export const Title = styled.div`
+    font-weight: bold;
+    font-size: 2rem;
+`;
+
+export const StyledRow = styled(Row)`
+    /* max-width: 130rem; */
+    /* justify-content: space-between; */
+`;
 
 export const FooterSection = styled.footer`
     position: relative;
@@ -10,7 +21,8 @@ export const FooterSection = styled.footer`
     background-image: url(${footerBgImg});
     background-position: center;
     background-size: cover;
-    font-size: ${({ theme }: ITheme): string => theme.fontSize.defaultFontSize};
+    /* font-size: ${({ theme }: ITheme): string => theme.fontSize.defaultFontSize}; */
+    font-size: 1.6rem;
 
     @media ${responsiveSize.tabPort} {
         padding: 8rem 0;
@@ -18,6 +30,7 @@ export const FooterSection = styled.footer`
 `;
 
 export const FooterLogoBox = styled.div`
+    height: 100px;
     margin-bottom: 8rem;
     text-align: center;
 
@@ -36,9 +49,10 @@ export const FooterLogo = styled.img`
 `;
 
 export const FooterNavigation = styled.div`
+    /* height: 3rem; */
     display: inline-block;
     padding-top: 2rem;
-    border-top: 1px solid ${({ theme }: ITheme): string => theme.colors.primary};
+    border-bottom: 1px solid ${({ theme }: ITheme): string => theme.colors.primary};
 
     @media ${responsiveSize.tabPort} {
         width: 100%;
@@ -52,6 +66,8 @@ export const FooterList = styled.ul`
 
 export const FooterListItem = styled.li`
     display: inline-block;
+    color: ${({ theme }: ITheme): string => theme.colors.primary};
+    margin-top: 10px;
 
     &:not(:last-child) {
         margin-right: 1.5rem;
