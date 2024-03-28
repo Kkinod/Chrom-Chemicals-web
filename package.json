@@ -1,6 +1,6 @@
 {
     "homepage": "http://Kkinod.github.io/Chrom-Chemicals-web",
-    "name": "my-web-react",
+    "name": "chrom-chemicals-web",
     "version": "0.1.0",
     "private": true,
     "dependencies": {

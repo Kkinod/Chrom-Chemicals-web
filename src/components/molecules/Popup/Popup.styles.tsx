@@ -19,6 +19,7 @@ export const PopupContent = styled.div`
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
     transition: all 0.5s 0.2s;
+    overflow-y: auto;
 
     @media ${responsiveSize.phone} {
         flex-direction: column;
@@ -69,11 +70,10 @@ export const LeftBox = styled.div`
 export const PopupImg = styled.img`
     display: block;
     width: 100%;
-    height: 50%;
-
+/* 
     @media ${responsiveSize.phone} {
         height: 50%;
-    }
+    } */
 `;
 
 export const RightBox = styled.div`

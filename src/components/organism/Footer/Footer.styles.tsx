@@ -1,5 +1,5 @@
 import styled from 'styled-components/macro';
-import footerBgImg from 'assets/img/biuro11test.png';
+import footerBgImg from 'assets/img/biuro.jpg';
 import { ITheme } from 'assets/styles/theme';
 import { responsiveSize } from 'assets/styles/mixins.styles';
 import { Row } from 'components/atoms/Grid/Grid.styles';
@@ -10,8 +10,7 @@ export const Title = styled.div`
 `;
 
 export const StyledRow = styled(Row)`
-    /* max-width: 130rem; */
-    /* justify-content: space-between; */
+
 `;
 
 export const FooterSection = styled.footer`
@@ -21,7 +20,6 @@ export const FooterSection = styled.footer`
     background-image: url(${footerBgImg});
     background-position: center;
     background-size: cover;
-    /* font-size: ${({ theme }: ITheme): string => theme.fontSize.defaultFontSize}; */
     font-size: 1.6rem;
 
     @media ${responsiveSize.tabPort} {
