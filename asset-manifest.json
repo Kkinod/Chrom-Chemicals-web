@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "./static/js/main.56b0d1e1.js",
+    "main.js": "./static/js/main.5fccc2db.js",
     "static/media/LogoFull-compress.mp4": "./static/media/LogoFull-compress.6e8da89cbd1ffdbbc0e4.mp4",
     "static/media/biuro.jpg": "./static/media/biuro.952d8c4f482ff3ff3f41.jpg",
     "static/media/Dzial-GAZ.jpg": "./static/media/Dzial-GAZ.28a5a6100dfe19252c0a.jpg",
@@ -11,9 +11,9 @@
     "static/media/3.jpg": "./static/media/3.50daa844c9a227abbd4d.jpg",
     "static/media/chemicals-noBg.png": "./static/media/chemicals-noBg.f742d2c80c1f8ee2f39a.png",
     "index.html": "./index.html",
-    "main.56b0d1e1.js.map": "./static/js/main.56b0d1e1.js.map"
+    "main.5fccc2db.js.map": "./static/js/main.5fccc2db.js.map"
   },
   "entrypoints": [
-    "static/js/main.56b0d1e1.js"
+    "static/js/main.5fccc2db.js"
   ]
 }
