@@ -1,8 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-import videoBig from 'assets/video/production(1440p).mp4';
-import videoSmall from 'assets/video/production(360p).mp4';
-import waldiFull from 'assets/video/WaldiFull.mp4';
+import hederVideo from 'assets/video/LogoFull-compress.mp4';
 import { BgVideo, BgVideoContent } from './BgVideo.styles';
+import { Shadow } from '../Shadow/Shadow.styles';
 
 export const BgVideoWrapper = (): JSX.Element => {
     const noVideoInfo = 'Your browser does not support video';
@@ -12,23 +11,24 @@ export const BgVideoWrapper = (): JSX.Element => {
     useEffect(() => {
         if (videoRef.current) {
             if (window.innerWidth <= 767) {
-                // videoRef.current.src = videoSmall;
-                videoRef.current.src = waldiFull;
+                videoRef.current.src = hederVideo;
             } else {
-                // videoRef.current.src = videoBig;
-                videoRef.current.src = waldiFull;
+                videoRef.current.src = hederVideo;
             }
             videoRef.current.load();
         }
     }, []);
 
     return (
-        <BgVideo>
-            <BgVideoContent ref={videoRef} autoPlay muted loop>
-                <source />
-                <source />
-                {noVideoInfo}
-            </BgVideoContent>
-        </BgVideo>
+        <>
+            <Shadow />
+            <BgVideo>
+                <BgVideoContent ref={videoRef} autoPlay muted loop>
+                    <source />
+                    <source />
+                    {noVideoInfo}
+                </BgVideoContent>
+            </BgVideo>
+        </>
     );
 };

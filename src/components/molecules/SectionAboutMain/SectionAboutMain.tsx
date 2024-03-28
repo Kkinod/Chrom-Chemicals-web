@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import firstPhoto from 'assets/img/1.jpg';
+import firstPhoto from 'assets/img/Dzial-TRANSPORT.jpg';
 // import firstPhoto from 'assets/img/zdjecie_biuro.webp';
-import secondPhoto from 'assets/img/2.jpg';
+import secondPhoto from 'assets/img/Dzial-CHEMIA.jpg';
 // import thirdPhoto from 'assets/img/3.jpg';
-import thirdPhoto from 'assets/img/zdjecie_biuro2.jpg';
+import thirdPhoto from 'assets/img/3.jpg';
 import { Col1of2, Row } from 'components/atoms/Grid/Grid.styles';
 import { WrapperComposition } from './SectionAboutMain.styles';
 import { FirstPhoto, SecondPhoto, ThirdPhoto } from 'components/atoms/CompositionPhotos/CompositionPhotos.styles';

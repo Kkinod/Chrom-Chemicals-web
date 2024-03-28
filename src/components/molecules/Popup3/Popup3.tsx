@@ -2,7 +2,16 @@ import React from 'react';
 import logo from 'assets/logo/chemicals-noBg.png';
 import { BtnText } from 'components/atoms/Buttons/BtnText.styles';
 import { CloseIcon } from 'components/atoms/CloseIcon/CloseIcon.styles';
-import { LeftBox, MainText, PopupContainer, PopupContent, PopupImg, RightBox, Subtitle, Title } from './Popup.styles';
+import {
+    LeftBox,
+    MainText,
+    PopupContainer,
+    PopupContent,
+    PopupImg,
+    RightBox,
+    Subtitle,
+    Title,
+} from '../Popup/Popup.styles';
 import { labels } from 'views/labels';
 
 export const Popup3 = (): JSX.Element => {

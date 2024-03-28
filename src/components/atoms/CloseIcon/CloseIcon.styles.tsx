@@ -13,10 +13,11 @@ export const CloseIcon = styled.a`
         font-size: 3rem;
         text-decoration: none;
         transition: all 0.2s;
+        z-index: 100;
 
-        @media ${responsiveSize.phone} {
+        /* @media ${responsiveSize.phone} {
             color: ${({ theme }: ITheme): string => theme.colors.white};
-        }
+        } */
     }
 
     &:hover {
