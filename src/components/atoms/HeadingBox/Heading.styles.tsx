@@ -18,7 +18,7 @@ export const HeadingPrimaryMain = styled.span`
     display: block;
     font-family: 'Lato', sans-serif;
     font-size: 7rem;
-    font-weight: 900;
+    font-weight: 700;
     text-transform: uppercase;
     text-shadow: 5px 6px 5px black;
     color: ${({ theme }: ITheme): string => theme.colors.secondary};
@@ -28,7 +28,7 @@ export const HeadingPrimaryMain = styled.span`
 export const HeadingPrimarySecond = styled.span`
     display: block;
     font-family: Garamond;
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 200;
     /* text-transform: capitalize; */
     animation: ${animationMoveInRight} 1s;
