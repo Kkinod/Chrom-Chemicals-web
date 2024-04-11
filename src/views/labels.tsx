@@ -1,34 +1,3 @@
-//
-
-// O Nas:
-// Wymiana 3 zdjęć
-
-// =====================
-// spedycja -> OFERTA
-
-// 1. GAZ - AEROZOL
-// -izobutan (bezwonny)
-// -propan(bezwonny)
-// -n-butan(bezwonny)
-// -mieszanki aerozolowe 2 i 3 składnikowe (bezwonne)
-// - gaz LPG
-
-// 2. CHEMIA  :
-// metanol
-// dodatki do farb
-// rozpuszczalniki
-// benzyny specjalne
-// DME
-// toluen
-
-// 3. TRANSPORT I SPEDYCJA :
-// Szukasz transportu specjalistycznego gazów bezwonnych lub wszelkiego rodzaju produktów chemicznych - również niebezpiecznych wszystkich klas ADR ?Jeśli poszukujesz zleceń transportowych dla swojej floty - również trafiłeś w odpowiednie miejsce - zadzwoń lub napisz.
-// =====================
-
-// Te dwa działy powyżej będą miały w tle jedno zdjęcie
-
-// Foooter - zmienić logo i nowe zdjęcię + dodać dane
-
 export const labels = {
     header: {
         headingPrimaryMainText: 'Chrom Chemicals',
@@ -65,9 +34,9 @@ export const labels = {
         headingTertiaryFirst: 'Pomagamy w doborze',
         headingTertiarySecond: 'Specjalizujemy się w drewnie',
         paragraph:
-            'Rok 2004 to początek historii której finałem jest istnienie firmy Chrom Chemicals. Rozpoczęcie pracy właściciela w branży paliwowej zaowocowało założeniem w 2012 roku firmy która w początkowej fazie miała nieco inny profil działalności niż ten dzisiejszy. Międzynarodowe kontakty w branży z największymi firmami na świecie pozwoliły na zbudowanie solidnego przedsiębiorstwa, którego filarem jest lojalność, partnerstwo i szeroko pojęta etyka biznesowa.',
+            'Rok 2004 to początek historii, której finałem jest istnienie firmy Chrom Chemicals. Rozpoczęcie pracy właściciela w branży paliwowej zaowocowało założeniem, w 2012 roku, firmy, która w początkowej fazie miała nieco inny profil działalności niż ten dzisiejszy. Międzynarodowe kontakty w branży z największymi firmami na świecie pozwoliły na zbudowanie solidnego przedsiębiorstwa, którego filarem jest lojalność, partnerstwo i szeroko pojęta etyka biznesowa.',
         paragraph2:
-            'Każda firma która rozpoczęła z nami współpracę, nawet od najmniejszych zagadnień czy zamówień, z roku na rok tą współpracę pogłębia o kolejne gałęzie swoich działalności a my jesteśmy szczęśliwi że możemy wspólnie z naszymi partnerami realizować zlecenia naszych klientów.',
+            'Każda firma, która rozpoczęła z nami współpracę, nawet od najmniejszych zagadnień czy zamówień, z roku na rok pogłębia tę współpracę o kolejne gałęzie swoich działalności, a my jesteśmy szczęśliwi, że możemy wspólnie z naszymi partnerami realizować zlecenia naszych klientów.',
         paragraph3: 'Zapraszamy do działu OFERTA i rozpoczęcia współpracy z naszą firmą !!!',
         btnText: 'Sprawdź więcej',
     },
@@ -102,6 +71,7 @@ export const labels = {
         },
         secondCard: {
             heading: 'Chemia',
+            toluen: 'toluen',
             firstDescription: 'metanol',
             secondDescription: 'dodatki do farb',
             thirdDescription: 'rozpuszczalniki',
@@ -112,9 +82,9 @@ export const labels = {
             heading: 'Transport i Spedycja',
             firstDescription: 'Transport specjalistyczny:',
             secondDescription: 'gazów bezwonnych',
-            thirdDescription: 'produktów chemicznych',
-            fourthDescription: 'produktów niebezpiecznych klas ADR',
-            fifthDecription: 'zlecenia transportowe dla swojej floty',
+            thirdDescription: 'produktów chemicznych neutralnych i ADR',
+            fourthDescription: 'produktów spożywczych',
+            fifthDecription: 'zlecenia dla firm transportowych w zakresie w/w',
         },
         buttonCardText: 'Szczegóły',
         buttonMainText: 'Odkryj całą ofertę',

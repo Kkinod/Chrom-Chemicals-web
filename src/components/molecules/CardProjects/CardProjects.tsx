@@ -16,6 +16,7 @@ import {
 interface ICardProjectsProps {
     imageUrl: string;
     firstDescription: string;
+    firstAndHalf?: string;
     secondDescription: string;
     thirdDescription: string;
     fourthDescription: string;
@@ -28,6 +29,7 @@ interface ICardProjectsProps {
 const CardProjects = ({
     imageUrl,
     firstDescription,
+    firstAndHalf,
     secondDescription,
     thirdDescription,
     fourthDescription,
@@ -49,6 +51,7 @@ const CardProjects = ({
                     <BackSideDetails>
                         <Ul>
                             <Li>{firstDescription}</Li>
+                            {firstAndHalf && <Li>{firstAndHalf}</Li>}
                             <Li>{secondDescription}</Li>
                             <Li>{thirdDescription}</Li>
                             <Li>{fourthDescription}</Li>
