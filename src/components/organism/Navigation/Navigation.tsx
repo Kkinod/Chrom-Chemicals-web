@@ -29,11 +29,6 @@ const Navigation = (): JSX.Element => {
                             {labels.navigationList.aboutUs}
                         </NavigationLink>
                     </ListItem>
-                    {/* <ListItem>
-                        <NavigationLink setIsChecked={handleListItemClick} href={labels.navigationList.productsSection}>
-                            {labels.navigationList.products}
-                        </NavigationLink>
-                    </ListItem> */}
                     <ListItem>
                         <NavigationLink
                             setIsChecked={handleListItemClick}

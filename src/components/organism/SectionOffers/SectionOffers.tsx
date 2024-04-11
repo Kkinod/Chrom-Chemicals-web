@@ -1,6 +1,5 @@
 import React from 'react';
-// import { BtnText } from 'components/atoms/Buttons/BtnText.styles';
-import { BtnWrapper, Section_Offers, ShadowBgOffer } from './SectionOffers.styles';
+import { Section_Offers, ShadowBgOffer } from './SectionOffers.styles';
 import { Row } from 'components/atoms/Grid/Grid.styles';
 import CardProjects from 'components/molecules/CardProjects/CardProjects';
 import CenterHeadingSecondary from 'components/molecules/CenterHeadingSecondary/CenterHeadingSecondary';
@@ -24,18 +23,19 @@ const SectionOffers = (): JSX.Element => {
                     fifthDecription={labels.sectionOffers.firtstCard.fifthDecription}
                     buttonText={labels.sectionOffers.buttonCardText}
                     cardHeading={labels.sectionOffers.firtstCard.heading}
-                    href='#popup'
+                    href="#popup"
                 />
                 <CardProjects
                     imageUrl={Chemia}
                     firstDescription={labels.sectionOffers.secondCard.firstDescription}
+                    firstAndHalf={labels.sectionOffers.secondCard.toluen}
                     secondDescription={labels.sectionOffers.secondCard.secondDescription}
                     thirdDescription={labels.sectionOffers.secondCard.thirdDescription}
                     fourthDescription={labels.sectionOffers.secondCard.fourthDescription}
                     fifthDecription={labels.sectionOffers.secondCard.fifthDecription}
                     buttonText={labels.sectionOffers.buttonCardText}
                     cardHeading={labels.sectionOffers.secondCard.heading}
-                    href='#popup2'
+                    href="#popup2"
                 />
                 <CardProjects
                     imageUrl={Transport}
@@ -46,12 +46,9 @@ const SectionOffers = (): JSX.Element => {
                     fifthDecription={labels.sectionOffers.thirdCard.fifthDecription}
                     buttonText={labels.sectionOffers.buttonCardText}
                     cardHeading={labels.sectionOffers.thirdCard.heading}
-                    href='#popup3'
+                    href="#popup3"
                 />
             </Row>
-            {/* <BtnWrapper>
-                <BtnText href="#">{labels.sectionOffers.buttonMainText}</BtnText>
-            </BtnWrapper> */}
         </Section_Offers>
     );
 };
